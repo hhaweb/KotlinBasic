@@ -5,4 +5,6 @@ open class Person constructor(var firstName: String ,var lastName: String,var ag
     val fullName: String
      get() = "$firstName $lastName"
     open val id: String = "$firstName-$age"
+
+    // test
 }
